@@ -3,7 +3,10 @@ Convertion d'un fichier rmd vers dokuwiki
 Amelioration:
     * Supprimer le header
     * Formater les menus niveaux 2, attention ne doit pas les supprimer dans les portions <code>
+    * Il subsiste des problèmes dans le début des balises <code rsplus> qui sont formatées en </code>
     * Liste a puce ("- " -> " *  ")
+    * Pas de reformatage des lien [](http://) -> {{http://|}}
+    
 """
 
 afinnfile = open("in.rmd", "r")
